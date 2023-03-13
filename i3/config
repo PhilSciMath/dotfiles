@@ -187,16 +187,16 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 # POLYBAR
-exec_always --no-startup-id /home/leandro/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # wallpaper with feh
-exec_always feh --bg-fill /home/leandro/Pictures/wallpapers/catppuccin-01.png
+exec_always feh --bg-fill $HOME/Pictures/wallpapers/catppuccin-01.png
 
 # my shortcuts
 bindsym Print exec "screengrab"
 
 # border
- default_border pixel 1
+ default_border pixel 2
 
 # custom forced floating apps
 for_window [class="qalculate-qt"] floating enable
@@ -204,9 +204,9 @@ for_window [class="Gpick"] floating enable
 
 # colors for windows decorations
 # class                    border  backfr. text    indicator  child_border
-client.focused             #bd93f9 #bd93f9 #f8f8f2 #2e3440   #6272a4
-client.focused_inactive    #3b4252 #3b4252 #d8dee9 #2e3440   #2e3440
-client.unfocused           #2e3440 #282a36 #4c566a #2e3440   #2e3440
+client.focused             #bd93f9 #bd93f9 #282a36 #2e3440   #ffb86c
+client.focused_inactive    #3b4252 #282a36 #6272a4 #2e3440   #2e3440
+client.unfocused           #2e3440 #282a36 #6272a4 #2e3440   #2e3440
 client.urgent              #e3829d #e3829d #f8f8f2 #f8f8f2   #e3829d
 client.placeholder         #282a36 #44475a #f8f8f2 #282a36   #44475a
 client.background          #282a36
