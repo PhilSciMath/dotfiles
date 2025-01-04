@@ -17,14 +17,10 @@ runtime! archlinux.vim
 " do not load defaults if ~/.vimrc is missing
 "let skip_defaults_vim=1
 
-" Dracula theme 
-packadd! dracula
+" Theme
+set termguicolors
+colorscheme onehalfdark
 syntax enable
-colorscheme dracula
-
-"Vim Airline Theme"
-let g:airline_theme='dracula'
-let g:airline_powerline_fonts = 1
 
 " other useful stuff 
 set number
@@ -38,3 +34,8 @@ set smarttab	  " Enable smart-tabs
 set softtabstop=4 " Number of spaces per Tab
 set laststatus=2  " Powerline
 set cursorline    " Highlight current line
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_tab_type = 1
+let g:airline#extensions#tabline#show_tab_number = 1
+let g:airline_theme='atomic'
