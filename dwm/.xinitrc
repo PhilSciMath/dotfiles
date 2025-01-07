@@ -60,6 +60,9 @@ slstatus &
 # Wallpaper
 nitrogen --restore &
 
+# This is used by qt5ct/qt6ct
+export QT_QPA_PLATFORMTHEME=qt6ct
+
 # Loop to restart dwm
 while true; do
 	dwm >/dev/null 2>&1
