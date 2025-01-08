@@ -19,23 +19,25 @@ runtime! archlinux.vim
 
 " Theme
 set termguicolors
-colorscheme onehalfdark
+colorscheme catppuccin_mocha
 syntax enable
 
 " other useful stuff 
 set number
-set showmatch	  " Highlight matching brace
-set smartcase	  " Enable smart-case search
-set ignorecase	  " Always case-insensitive
-set autoindent	  " Auto-indent new lines
-set shiftwidth=4  " Number of auto-indent spaces
-set smartindent	  " Enable smart-indent
-set smarttab	  " Enable smart-tabs
-set softtabstop=4 " Number of spaces per Tab
-set laststatus=2  " Powerline
-set cursorline    " Highlight current line
+set showmatch	    " Highlight matching brace
+set smartcase	    " Enable smart-case search
+set ignorecase	    " Always case-insensitive
+set autoindent	    " Auto-indent new lines
+set expandtab       " Convert tabs to spaces
+set shiftwidth=4    " Number of spaces for each auto-indent level
+set smartindent	    " Enable smart-indent
+set smarttab	    " Enable smart-tabs
+set softtabstop=4   " Number of spaces per Tab
+set laststatus=2    " Powerline
+set cursorline      " Highlight current line
+set colorcolumn=80  " 80 comumns limit vertical line
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_tab_type = 1
 let g:airline#extensions#tabline#show_tab_number = 1
-let g:airline_theme='atomic'
+let g:airline_theme = 'base16_dracula'
