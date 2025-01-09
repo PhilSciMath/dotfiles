@@ -18,14 +18,14 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=11",
+static const char *fonts[]          = { "terminus:size=14",
 					"fontawesome:size=10"};
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_cyan[]        = "#0066ff";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -52,7 +52,8 @@ static const Rule rules[] = {
 	{ "qBittorrent", NULL,    NULL,       0,            0,           -1 },
 	{ "libreoffice", NULL,    NULL,       0,            0,           -1 },
 	{ "ksnip",       NULL,    NULL,       0,            1,           -1 },
-	{ "Xarchiver",   NULL,    NULL,       0,            1,           -1 },
+	{ "lxqt-archiver", NULL,  NULL,       0,            1,           -1 },
+	{ "matplotlib", NULL,     NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
