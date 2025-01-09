@@ -60,6 +60,9 @@ slstatus &
 # Wallpaper
 nitrogen --restore &
 
+# Numlock on 
+numlockx on &
+
 # This is used by qt5ct/qt6ct
 export QT_QPA_PLATFORMTHEME=qt6ct
 
