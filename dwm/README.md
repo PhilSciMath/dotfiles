@@ -1,6 +1,8 @@
 # DWM
 My dwm is configured to be more like i3, since I think the default keybindings are abominably bad. It also uses qterminal to have a minimum of functionality, like scrolling, without the need to patch, st is there as a backup. Theme is Nord and I added support for audio control via keyboard and language switch with ``super+space``. 
-
+<br>
+**st** is patched with **nordcolors** and **anysize**. Font is set to terminus size 22. 
+<br>
 ## Important
 After cloning/downloading, go inside dwm directory, there you'll see four other directories **dmenu**, **dwm**, **slstatus** and **st**, then go inside each one of these and do ``sudo make clean install``. After this, move the .xinitrc to your home dir.
 <br>
