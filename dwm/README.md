@@ -14,4 +14,7 @@ sudo pacman -Syu --needed xorg-server xorg-xinit qterminal picom nitrogen ksnip 
 My dwm files have at least ksnip, pavucontrol-qt, pcmanfm-qt, qterminal and rofi, bound to some key combination. The xorg packages are mandatory, alsa-utils is required to control audio volume. You surely can change most of these programs for the ones you like most.  
 <br>
 <br>
-<img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm.png" alt="Alt text" width="1000" align="center">
+<img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm_1.png" alt="Alt text" width="1000" align="center">
+<br>
+<br>
+<img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm_2.png" alt="Alt text" width="1000" align="center">
