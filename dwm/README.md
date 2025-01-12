@@ -10,7 +10,9 @@ Also don't forget to install the  dependencies:
 ```
 sudo pacman -Syu --needed xorg-server xorg-xinit picom nitrogen ksnip pavucontrol-qt rofi alsa-utils gvfs numlockx terminus-font pcmanfm-qt lxqt-archiver awesome-terminal-fonts
 ```
+<br>
 My dwm files have at least ksnip, pavucontrol-qt, pcmanfm-qt and rofi, bound to some key combination. The xorg packages are mandatory, alsa-utils is required to control audio volume. You surely can change most of these programs for the ones you like most.  
+
 <br>
 <br>
 <img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm_1.png" alt="Alt text" width="1000" align="center">
