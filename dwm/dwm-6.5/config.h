@@ -21,11 +21,11 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "terminus:size=14",
 					"fontawesome:size=10"};
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#0066ff";
+static const char col_gray1[]       = "#2e3440";
+static const char col_gray2[]       = "#434c5e";
+static const char col_gray3[]       = "#d8dee9";
+static const char col_gray4[]       = "#e5e9f0";
+static const char col_cyan[]        = "#4c566a";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -54,6 +54,7 @@ static const Rule rules[] = {
 	{ "ksnip",       NULL,    NULL,       0,            1,           -1 },
 	{ "lxqt-archiver", NULL,  NULL,       0,            1,           -1 },
 	{ "matplotlib", NULL,     NULL,       0,            1,           -1 },
+	{ "qalculate-qt", NULL,     NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
