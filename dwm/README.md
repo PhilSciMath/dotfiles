@@ -18,3 +18,29 @@ My dwm files have at least ksnip, pavucontrol-qt, pcmanfm-qt and rofi, bound to 
 <img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm_1.png" alt="Alt text" width="1000" align="center">
 <br>
 <img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm_2.png" alt="Alt text" width="1000" align="center">
+
+<br>
+# Some shortcut keys
+----------------------------------------------------------
+| Alt + Enter             | opens terminal               |
+----------------------------------------------------------
+| Alt + Shift + q         | closes any windows           |
+----------------------------------------------------------
+| Alt + d                 | opens rofi                   |
+----------------------------------------------------------
+| Alt + p                 | opens dmenu                  |
+----------------------------------------------------------
+| Alt + =                 | increases gaps               |
+----------------------------------------------------------
+| Alt + -                 | decreases gaps               |
+----------------------------------------------------------
+| Alt + Shift + =         | no gaps                      |
+----------------------------------------------------------
+| Alt + i                 | increase windows on master   |
+----------------------------------------------------------
+| Alt + c                 | decreases windows on master  |
+----------------------------------------------------------
+| Alt + h                 | increases stack area         |
+----------------------------------------------------------
+| Alt + l                 | increases master area        |
+----------------------------------------------------------
