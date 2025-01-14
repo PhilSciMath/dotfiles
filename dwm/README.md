@@ -1,5 +1,5 @@
 # DWM
-My dwm is configured to be more like i3, since I think the default keybindings are abominably bad. The only patch for now is **systray**. Using st as the main terminal emulator. Theme is Nord and I added support for audio control via keyboard and language switch with ``super+space``. 
+My dwm is configured to be more like i3, since I think the default keybindings are abominably bad. The only patches for now are **systray** and **alwayscenter**. Using st as the main terminal emulator. Theme is Nord and I added support for audio control via keyboard and language switch with ``super+space``. 
 <br>
 **st** is patched with **nordcolors** and **anysize**. Font is set to terminus size 22. 
 <br>
