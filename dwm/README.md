@@ -20,7 +20,9 @@ My dwm files have at least ksnip, pavucontrol-qt, pcmanfm-qt and rofi, bound to 
 <img src="https://github.com/PhilSciMath/dotfiles/blob/master/dwm/assets/dwm_2.png" alt="Alt text" width="1000" align="center">
 
 <br>
+
 # Some shortcut keys
+
 ----------------------------------------------------------
 | Alt + Enter             | opens terminal               |
 ----------------------------------------------------------
