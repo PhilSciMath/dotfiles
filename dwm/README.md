@@ -21,7 +21,7 @@ My dwm files have at least ksnip, pavucontrol-qt, pcmanfm-qt and rofi, bound to 
 
 <br>
 
-| Some shortcut keys
+| Some shortcut keys                                     |
 |--------------------------------------------------------|
 | Alt + Enter             | opens terminal               |
 | Alt + Shift + q         | closes any windows           |
